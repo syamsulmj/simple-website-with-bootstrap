@@ -1,0 +1,163 @@
+.navcolor{
+    background: #EEE;
+    border-color: #EEE;
+}
+
+.navbar{
+    border: 0px;
+}
+
+footer{
+    
+    width: 100%;
+    background: rgb(38,38,38);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+hr{
+    height: 1px;
+    background-color: grey;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+}
+
+/*=============About Us Style================*/
+.about-us-cover{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 500px;
+    width: 100%;
+    background-image:url('nice-view.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.au-cover-text{
+    color: white;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.au-2nd-cover{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #F1F2F3;
+}
+
+/*========================================================*/
+
+/*============= Services Style ========================*/
+
+.s-commentsec{
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background: #F1F2F3;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+/*======================================================*/
+
+/*============== Project Style ==========================*/
+
+.p-cover{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 500px;
+    width: 100%;
+    background-image:url('720vr.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========================================================*/
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 709px;
+  margin-bottom: 60px;
+  margin-top: 49px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 709px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  margin: 0 auto;
+  /*position: absolute;*/
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 709px;
+}
+
+.btn-danger{
+    background: rgb(235,18,29);
+    border-color: rgb(235,18,29);
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/*RESPONSIVE CSS*/
+/* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+@media (min-width: 768px) {
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
